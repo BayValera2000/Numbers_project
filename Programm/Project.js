@@ -55,6 +55,7 @@ function ClickZero(){
 Clear.addEventListener('click', () => ClickClear())
 function ClickClear(){
     input.innerHTML = ``
+    Txt.innerHTML = `Введите число от 0 до 9.000.000.000`
 }
 Enter.addEventListener('click', () => ClickEnter())
 function ClickEnter(){
